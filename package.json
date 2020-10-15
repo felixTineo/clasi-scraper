@@ -5,5 +5,11 @@
   "main": "main.js",
   "repository": "git@github.com:felixTineo/clasi-scraper.git",
   "author": "felix tineo",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start":"nodemon main.js"
+  },
+  "dependencies": {
+    "puppeteer": "^5.3.1"
+  }
 }
