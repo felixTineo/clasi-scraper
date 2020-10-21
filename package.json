@@ -7,9 +7,14 @@
   "author": "felix tineo",
   "license": "MIT",
   "scripts": {
-    "start":"nodemon main.js"
+    "start": "nodemon main.js"
   },
   "dependencies": {
-    "puppeteer": "^5.3.1"
+    "convert-excel-to-json": "^1.7.0",
+    "install": "^0.13.0",
+    "node-xlsx": "^0.15.0",
+    "npm": "^6.14.8",
+    "puppeteer": "^5.3.1",
+    "xls-to-json-lc": "^0.3.4"
   }
 }
